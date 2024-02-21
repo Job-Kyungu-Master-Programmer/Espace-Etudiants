@@ -1,0 +1,16 @@
+{
+  "notes": [],
+  "users": [
+    {
+      "id": "2780",
+      "name": "Jeancy",
+      "lastName": "Dalos",
+      "profession": "Developer frontend",
+      "mail": "jeancy@gmail.com",
+      "password": "fjfjf",
+      "level": "4",
+      "age": "27",
+      "faculty": "IT-Computer"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+
+
+GET http://localhost:3002/api/notes
+
+####
+
+POST  http://localhost:3002/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoiamVhbmN5QGdtYWlsLmNvbSIsImlkIjoiNjVkYTJmZjQ5MDM2OWZjZDBlNmI2YjljIiwiaWF0IjoxNzA4Nzk5NTM3fQ.4VDQeQgkbSu7yhlDUGVx0qBuBOV-EK0i9VwzQTA4FJg
+
+{
+    "title": "La mere",
+    "content": "Lorem ipsum orem isuim",
+    "important": true,
+    "day": 23,
+    "month": 2,
+    "years": 2024,
+    "userId": "65da2ff490369fcd0e6b6b9c"
+}
+
+
+###
+GET http://localhost:3002/api/users
+
+####
+
+POST  http://localhost:3002/api/users
+Content-Type: application/json
+
+{
+    "name": "Jeancy",
+    "lastName": "Dalos",
+    "profession": "Etudiant",
+    "mail": "jeancy@gmail.com",
+    "password": "mat",
+    "like": 100,
+    "level": 4,
+    "age": 27,
+    "faculty": "IT-Computer",
+    "id": 1
+}
+
+###
+
+POST  http://localhost:3002/api/login
+Content-Type: application/json
+
+{
+    "mail": "jeancy@gmail.com",
+    "password": "mat"
+}
+
+###
+GET  http://localhost:3002/api/login

@@ -1,0 +1,27 @@
+{
+  "notes": [
+    {
+      "id": "e081",
+      "title": "Offrande",
+      "content": "Le memo reste la\nEt restera seulement.",
+      "important": true,
+      "day": 22,
+      "month": 2,
+      "years": 2024
+    }
+  ],
+  "users": [
+    {
+      "id": "2d77",
+      "name": "Jeancy",
+      "lastName": "Dalos",
+      "profession": "Etudiant",
+      "mail": "jeancy@gmail.com",
+      "like": 25,
+      "password": "Jeancy",
+      "level": "4",
+      "age": "27",
+      "faculty": "IT-Computer"
+    }
+  ]
+}
